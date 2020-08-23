@@ -16,6 +16,7 @@ end
 def checkout(cart, coupons)
 
 one_cart = consolidate_cart(cart)
-coupons_cart = apply_coupons(cart)
+coupons_cart = apply_coupons(cart, coupons)
+
 
 end
