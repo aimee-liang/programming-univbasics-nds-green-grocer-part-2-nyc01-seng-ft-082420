@@ -4,6 +4,7 @@ def apply_coupons(cart, coupons)
 
 end
 
+
 def apply_clearance(cart)
   cart.each do |item|
   if item[:clearance] == true
@@ -13,10 +14,13 @@ def apply_clearance(cart)
   cart
 end
 
+
 def checkout(cart, coupons)
 
 one_cart = consolidate_cart(cart)
 coupons_cart = apply_coupons(cart, coupons)
+on_clearance = apply_clearance(cart)
+
 
 
 end
