@@ -15,4 +15,7 @@ end
 
 def checkout(cart, coupons)
 
+coupons_cart = apply_coupons(cart)
+
+
 end
