@@ -21,6 +21,8 @@ one_cart = consolidate_cart(cart)
 coupons_cart = apply_coupons(cart, coupons)
 on_clearance = apply_clearance(cart)
 
+# declare new variable equal to 0 which will later store total 
+total = 0 
 
 
 end
